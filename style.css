@@ -7,10 +7,13 @@
 body{
     background-color: rgb(0, 0, 0);
     min-height: 100vh;
+    overflow-x: hidden;
+    
 }
 
 html{
     scroll-behavior: smooth;
+
 }
 
 .navbar{
@@ -93,7 +96,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1704px;
+    width: 1682px;
     height: 300px;
 }
 
@@ -118,7 +121,7 @@ html{
 
 .problems img{
     top: 18rem;
-    width: 1970px;
+    width: 1904px;
     height: 1100px;
     object-fit: cover;
     display: flex;
@@ -235,10 +238,10 @@ html{
 
 .paper-moon{
     position: relative;
-    left: 1350px;
-    top: -5rem;
-    width: 450px;
-    height: 450px;
+    left: 1355px;
+    top: -2rem;
+    width: 400px;
+    height: 400px;
 }
 
 .tecnologia{
@@ -263,7 +266,7 @@ html{
 }
 
 .container-tec{
-    position: relative;
+    
     top: 5rem;
     display: flex;
     flex-direction: column;
@@ -279,3 +282,46 @@ html{
     object-fit: cover;
     border-radius: 10px;
 }
+
+.scroll-down a{
+    position: relative;
+    bottom: 20px;
+    font-family: 'gloria hallelujah', cursive;
+    font-weight: bold;
+    border: solid 3px white;
+    padding: 30px 50px;
+    border-radius: 20px;
+    transform: translateX(-50%);
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    user-select: none;
+    top: -10rem ;
+}
+
+.paper-cloud {
+    width: 500px;
+    height: 500px;  
+    position: relative;
+    top: -15rem;
+    left: 100px;
+    
+}
+
+.container-infos {
+        margin: 0 auto;        
+    margin-top: -400px;
+    padding: 40px;          
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    width: 1450px;  
+    gap: 30px;              
+    min-height: 100vh;       
+    background-color: #000; 
+    border: solid 20px white;
+    border-radius: 40px;    }
+
+
+
