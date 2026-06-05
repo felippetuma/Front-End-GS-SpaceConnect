@@ -205,6 +205,8 @@ html{
     padding: 9px;
     font-size: 25px;
     margin-top: -23rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .objetivos h1{
@@ -215,15 +217,38 @@ html{
     animation-range: entry 10% cover 30%;
 }
 
+.objetivos-content{
+    display: flex;
+    align-items: stretch;
+    gap: 30px;
+    margin: 30px;
+}
+
 .container-obj{   
     background-color: black;
-    margin: 30px;
     height: 600px;
     width: 1200px;
     border-radius: 10px;
     animation: gradativamente linear both;
     animation-timeline: view();
     animation-range: entry 10% cover 30%;
+}
+
+.container-img{
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+    animation: gradativamente linear both;
+    animation-timeline: view();
+    animation-range: entry 10% cover 30%;
+}
+
+.container-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .container-obj p{
@@ -309,7 +334,7 @@ html{
 }
 
 .container-infos {
-        margin: 0 auto;        
+    margin: 0 auto;        
     margin-top: -400px;
     padding: 40px;          
     box-sizing: border-box; 
@@ -321,7 +346,86 @@ html{
     min-height: 100vh;       
     background-color: #000; 
     border: solid 20px white;
-    border-radius: 40px;    }
+    border-radius: 40px;    
+}
+
+.topicos-tec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.topico-tec1 {
+    border-radius: 30px 0px 0px 30px;
+    color: black;
+    background-color: white;
+    padding: 32px;
+    flex: 1;
+    width: 314px;
+    height: 932px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h2 {
+        padding: 10px 0;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        border-radius: 30px;
+    }
+}
 
 
+.topico-tec2 {
+    color: black;
+    background-color: white;
+    padding: 32px;
+    flex: 1;
+    width: 314px;
+    height: 932px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 
+    h2 {
+        padding: 10px 0;
+    }
+    img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        border-radius: 30px;
+    }
+}
+
+.topico-tec3 {
+    border-radius: 0px 30px 30px 0px;
+    color: black;
+    background-color: white;
+    padding: 32px;
+    flex: 1;
+    width: 314px;
+    height: 932px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    h2 {
+        padding: 10px 0;
+    }
+    img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        border-radius: 30px;
+    }
+}
